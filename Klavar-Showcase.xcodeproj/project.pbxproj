@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40107A5E3D9038F00A0A3DC2 /* Pods_Klavar_Showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF6984AC8FAF649B334D736 /* Pods_Klavar_Showcase.framework */; };
+		C32656291DAE8CD9002F3133 /* Username.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32656281DAE8CD9002F3133 /* Username.swift */; };
+		C33021731DA6D71300CCBAEF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33021721DA6D71300CCBAEF /* FeedVC.swift */; };
+		C33021751DA6D9AF00CCBAEF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33021741DA6D9AF00CCBAEF /* PostCell.swift */; };
+		C334FF3A1DA97028008D4F5D /* ObjectiveCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C334FF391DA97028008D4F5D /* ObjectiveCFile.m */; };
+		C334FF3D1DA9B34F008D4F5D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C334FF3C1DA9B34F008D4F5D /* Post.swift */; };
+		C34D6D641DA56C99009A2F9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34D6D631DA56C99009A2F9D /* GoogleService-Info.plist */; };
+		C34D6D701DA6745B009A2F9D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D6D6F1DA6745B009A2F9D /* DataService.swift */; };
 		C35230091DA527F9007C924C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35230081DA527F9007C924C /* AppDelegate.swift */; };
 		C352300B1DA527F9007C924C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352300A1DA527F9007C924C /* ViewController.swift */; };
 		C352300E1DA527F9007C924C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C352300C1DA527F9007C924C /* Main.storyboard */; };
 		C35230101DA527F9007C924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C352300F1DA527F9007C924C /* Assets.xcassets */; };
 		C35230131DA527F9007C924C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35230111DA527F9007C924C /* LaunchScreen.storyboard */; };
+		C35230211DA528A9007C924C /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C352301D1DA528A9007C924C /* NotoSans-Bold.ttf */; };
+		C35230221DA528A9007C924C /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C352301E1DA528A9007C924C /* NotoSans-BoldItalic.ttf */; };
+		C35230231DA528A9007C924C /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C352301F1DA528A9007C924C /* NotoSans-Italic.ttf */; };
+		C35230241DA528A9007C924C /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35230201DA528A9007C924C /* NotoSans-Regular.ttf */; };
+		C38E92641DA53377003361F0 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E92631DA53377003361F0 /* MaterialView.swift */; };
+		C38E92671DA53424003361F0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E92661DA53424003361F0 /* Constants.swift */; };
+		C38E92691DA53BED003361F0 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E92681DA53BED003361F0 /* MaterialButton.swift */; };
+		C38E926B1DA541C6003361F0 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E926A1DA541C6003361F0 /* MaterialTextField.swift */; };
+		C3E7E1291DA5661C006E6FDD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7E1261DA5661C006E6FDD /* Bolts.framework */; };
+		C3E7E12A1DA5661C006E6FDD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7E1271DA5661C006E6FDD /* FBSDKCoreKit.framework */; };
+		C3E7E12B1DA5661C006E6FDD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E7E1281DA5661C006E6FDD /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A093A3FB325C4DB501AB031 /* Pods-Klavar-Showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klavar-Showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Klavar-Showcase/Pods-Klavar-Showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF6984AC8FAF649B334D736 /* Pods_Klavar_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klavar_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8904F2D98AB857E84A9B054 /* Pods-Klavar-Showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klavar-Showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Klavar-Showcase/Pods-Klavar-Showcase.release.xcconfig"; sourceTree = "<group>"; };
+		C32656281DAE8CD9002F3133 /* Username.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Username.swift; sourceTree = "<group>"; };
+		C33021721DA6D71300CCBAEF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		C33021741DA6D9AF00CCBAEF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C334FF381DA97028008D4F5D /* ObjectiveCFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCFile.h; sourceTree = "<group>"; };
+		C334FF391DA97028008D4F5D /* ObjectiveCFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCFile.m; sourceTree = "<group>"; };
+		C334FF3B1DA97069008D4F5D /* Klavar-Showcase-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Klavar-Showcase-Bridging-Header.h"; sourceTree = "<group>"; };
+		C334FF3C1DA9B34F008D4F5D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C34D6D631DA56C99009A2F9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C34D6D6D1DA66033009A2F9D /* Klavar-Showcase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Klavar-Showcase.entitlements"; sourceTree = "<group>"; };
+		C34D6D6F1DA6745B009A2F9D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		C35230051DA527F9007C924C /* Klavar-Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klavar-Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35230081DA527F9007C924C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C352300A1DA527F9007C924C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +54,17 @@
 		C352300F1DA527F9007C924C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C35230121DA527F9007C924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C35230141DA527F9007C924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C352301D1DA528A9007C924C /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		C352301E1DA528A9007C924C /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C352301F1DA528A9007C924C /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		C35230201DA528A9007C924C /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		C38E92631DA53377003361F0 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		C38E92661DA53424003361F0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C38E92681DA53BED003361F0 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		C38E926A1DA541C6003361F0 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		C3E7E1261DA5661C006E6FDD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C3E7E1271DA5661C006E6FDD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C3E7E1281DA5661C006E6FDD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +72,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E7E1291DA5661C006E6FDD /* Bolts.framework in Frameworks */,
+				C3E7E12A1DA5661C006E6FDD /* FBSDKCoreKit.framework in Frameworks */,
+				C3E7E12B1DA5661C006E6FDD /* FBSDKLoginKit.framework in Frameworks */,
+				40107A5E3D9038F00A0A3DC2 /* Pods_Klavar_Showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B8CAE7EECA5C5CCA1C3FC8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A093A3FB325C4DB501AB031 /* Pods-Klavar-Showcase.debug.xcconfig */,
+				B8904F2D98AB857E84A9B054 /* Pods-Klavar-Showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C34D6D6E1DA6741A009A2F9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C34D6D6F1DA6745B009A2F9D /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		C3522FFC1DA527F8007C924C = {
 			isa = PBXGroup;
 			children = (
 				C35230071DA527F9007C924C /* Klavar-Showcase */,
 				C35230061DA527F9007C924C /* Products */,
+				1B8CAE7EECA5C5CCA1C3FC8D /* Pods */,
+				EDC86387335A1043AA2D2899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,91 @@
 		C35230071DA527F9007C924C /* Klavar-Showcase */ = {
 			isa = PBXGroup;
 			children = (
+				C34D6D6D1DA66033009A2F9D /* Klavar-Showcase.entitlements */,
+				C34D6D6E1DA6741A009A2F9D /* Services */,
+				C38E926C1DA56547003361F0 /* Frameworks */,
+				C38E92651DA533C5003361F0 /* Utilities */,
+				C38E92621DA5332B003361F0 /* View */,
+				C352301C1DA52837007C924C /* Resources */,
+				C352301B1DA52830007C924C /* Model */,
+				C352301A1DA52827007C924C /* Controller */,
 				C35230081DA527F9007C924C /* AppDelegate.swift */,
-				C352300A1DA527F9007C924C /* ViewController.swift */,
 				C352300C1DA527F9007C924C /* Main.storyboard */,
 				C352300F1DA527F9007C924C /* Assets.xcassets */,
 				C35230111DA527F9007C924C /* LaunchScreen.storyboard */,
 				C35230141DA527F9007C924C /* Info.plist */,
+				C334FF3B1DA97069008D4F5D /* Klavar-Showcase-Bridging-Header.h */,
+				C334FF381DA97028008D4F5D /* ObjectiveCFile.h */,
+				C334FF391DA97028008D4F5D /* ObjectiveCFile.m */,
+				C34D6D631DA56C99009A2F9D /* GoogleService-Info.plist */,
 			);
 			path = "Klavar-Showcase";
+			sourceTree = "<group>";
+		};
+		C352301A1DA52827007C924C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C352300A1DA527F9007C924C /* ViewController.swift */,
+				C33021721DA6D71300CCBAEF /* FeedVC.swift */,
+				C32656281DAE8CD9002F3133 /* Username.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C352301B1DA52830007C924C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C334FF3C1DA9B34F008D4F5D /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C352301C1DA52837007C924C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C352301D1DA528A9007C924C /* NotoSans-Bold.ttf */,
+				C352301E1DA528A9007C924C /* NotoSans-BoldItalic.ttf */,
+				C352301F1DA528A9007C924C /* NotoSans-Italic.ttf */,
+				C35230201DA528A9007C924C /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C38E92621DA5332B003361F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C38E92631DA53377003361F0 /* MaterialView.swift */,
+				C38E92681DA53BED003361F0 /* MaterialButton.swift */,
+				C38E926A1DA541C6003361F0 /* MaterialTextField.swift */,
+				C33021741DA6D9AF00CCBAEF /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C38E92651DA533C5003361F0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C38E92661DA53424003361F0 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C38E926C1DA56547003361F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E7E1261DA5661C006E6FDD /* Bolts.framework */,
+				C3E7E1271DA5661C006E6FDD /* FBSDKCoreKit.framework */,
+				C3E7E1281DA5661C006E6FDD /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC86387335A1043AA2D2899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF6984AC8FAF649B334D736 /* Pods_Klavar_Showcase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C35230171DA527F9007C924C /* Build configuration list for PBXNativeTarget "Klavar-Showcase" */;
 			buildPhases = (
+				6706ADEA2A2C17357EAE4DF5 /* [CP] Check Pods Manifest.lock */,
 				C35230011DA527F8007C924C /* Sources */,
 				C35230021DA527F8007C924C /* Frameworks */,
 				C35230031DA527F8007C924C /* Resources */,
+				8C1C4CF86517CA286EB103C8 /* [CP] Embed Pods Frameworks */,
+				0C5A33679AF702A1A244F602 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +243,13 @@
 					C35230041DA527F8007C924C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2K73A5C2UZ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,21 +276,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35230211DA528A9007C924C /* NotoSans-Bold.ttf in Resources */,
+				C34D6D641DA56C99009A2F9D /* GoogleService-Info.plist in Resources */,
 				C35230131DA527F9007C924C /* LaunchScreen.storyboard in Resources */,
+				C35230221DA528A9007C924C /* NotoSans-BoldItalic.ttf in Resources */,
+				C35230231DA528A9007C924C /* NotoSans-Italic.ttf in Resources */,
 				C35230101DA527F9007C924C /* Assets.xcassets in Resources */,
 				C352300E1DA527F9007C924C /* Main.storyboard in Resources */,
+				C35230241DA528A9007C924C /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5A33679AF702A1A244F602 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Klavar-Showcase/Pods-Klavar-Showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6706ADEA2A2C17357EAE4DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1C4CF86517CA286EB103C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Klavar-Showcase/Pods-Klavar-Showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C35230011DA527F8007C924C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33021731DA6D71300CCBAEF /* FeedVC.swift in Sources */,
+				C32656291DAE8CD9002F3133 /* Username.swift in Sources */,
+				C334FF3D1DA9B34F008D4F5D /* Post.swift in Sources */,
+				C38E926B1DA541C6003361F0 /* MaterialTextField.swift in Sources */,
+				C38E92641DA53377003361F0 /* MaterialView.swift in Sources */,
 				C352300B1DA527F9007C924C /* ViewController.swift in Sources */,
 				C35230091DA527F9007C924C /* AppDelegate.swift in Sources */,
+				C38E92671DA53424003361F0 /* Constants.swift in Sources */,
+				C38E92691DA53BED003361F0 /* MaterialButton.swift in Sources */,
+				C334FF3A1DA97028008D4F5D /* ObjectiveCFile.m in Sources */,
+				C34D6D701DA6745B009A2F9D /* DataService.swift in Sources */,
+				C33021751DA6D9AF00CCBAEF /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +397,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +448,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,26 +476,45 @@
 		};
 		C35230181DA527F9007C924C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A093A3FB325C4DB501AB031 /* Pods-Klavar-Showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Klavar-Showcase/Klavar-Showcase.entitlements";
 				DEVELOPMENT_TEAM = 2K73A5C2UZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Klavar-Showcase",
+				);
 				INFOPLIST_FILE = "Klavar-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.TonyMerritt.Klavar-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Klavar-Showcase/Klavar-Showcase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C35230191DA527F9007C924C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8904F2D98AB857E84A9B054 /* Pods-Klavar-Showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Klavar-Showcase/Klavar-Showcase.entitlements";
 				DEVELOPMENT_TEAM = 2K73A5C2UZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Klavar-Showcase",
+				);
 				INFOPLIST_FILE = "Klavar-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.TonyMerritt.Klavar-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Klavar-Showcase/Klavar-Showcase-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +538,7 @@
 				C35230191DA527F9007C924C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
